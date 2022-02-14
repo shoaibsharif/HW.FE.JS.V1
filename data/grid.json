@@ -10,16 +10,7 @@
           "type": "text"
         }
       }
-    },
-    {
-      "name": "Last name",
-      "field": "lastName",
-      "properties": {
-        "renderer": {
-          "type": "text"
-        }
-      }
-    },
+    },   
     {
       "name": "DOB",
       "field": "dob",
