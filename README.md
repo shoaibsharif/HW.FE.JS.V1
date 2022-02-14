@@ -39,13 +39,49 @@ Here's what your table should look like when you're done!
 ### People
 #### Here is a list of imaginary people
 
-| Name       | DOB       | Skills | Address |
-| ---------- | --------- | --- | ------ | ------- |
-| John Doe   | Jan 10    | Javascript, React | 1 Main Street<br>New York, NY 10001<br>USA |
-| Jane Doe   | Nov 5     | HTML, CSS | 1 Main Street<br>New York, NY 10001<br>USA |
-| Bob Doe | Jan 1 | JavaScript, Vue, Angular, HTML, CSS | 2 Main Street<br>New York, NY 10001<br>USA |
-| George Doe | Feb 10 | None listed | 3 Main Street<br>USA |
-| Jenny Doe | n/a | NodeJS, C# | 2 Main Street<br>New York, NY 10001<br>USA |
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>DOB</th>
+      <th>Skills</th>
+      <th>Address</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>John Doe</td>
+      <td>Jan 10</td>
+      <td>Javascript, React</td>
+      <td>1 Main Street<br>New York, NY 10001<br>USA</td>      
+    </tr>
+    <tr>
+      <td>Jane Doe</td>
+      <td>Nov 5</td>
+      <td>HTML, CSS</td>
+      <td>1 Main Street<br>New York, NY 10001<br>USA</td>      
+    </tr>
+    <tr>
+      <td>Bob Doe</td>
+      <td>Jan 1</td>
+      <td>JavaScript, Vue, Angular, HTML, CSS</td>
+      <td>2 Main Street<br>New York, NY 10001<br>USA</td>      
+    </tr>
+    <tr>
+      <td>George Doe</td>
+      <td>Feb 10</td>
+      <td>None listed</td>
+      <td>3 Main Street<br>USA</td>      
+    </tr>
+    <tr>
+      <td>Jenny Doe</td>
+      <td>n/a</td>
+      <td>NodeJS, C#</td>
+      <td>2 Main Street<br>New York, NY 10001<br>USA</td>      
+    </tr>
+  </tbody>
+</table>
+
 
 
 
