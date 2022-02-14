@@ -31,6 +31,7 @@ You may want to incorporate some existing helper libraries into your project (e.
 - Add properties to `grid.json` that use can use to style the table (i.e., background color)
 - Simulate a factory that fetches your data instead of just importing the JSON directly
 - Simulate fetching by showing a loading icon 
+- If you see logic rendered in the table that's not apparent in the `grid.json`, feel free to alter the json to accommodate
 
 ## Finished Project
 
