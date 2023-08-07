@@ -16,7 +16,7 @@ Feel free to fork this repository and get started!
 ### Use one of the following:
 
 - Vanilla JavaScript
-- VueJS - nice to have but not required
+- VueJS - preferred
 - React - nice to have but not required
 
 ### Tips
