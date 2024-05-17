@@ -9,8 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.7",
     "@tanstack/vue-query": "^5.36.1",
     "dayjs": "^1.11.11",
+    "fuse.js": "^7.0.0",
     "vue": "^3.4.21"
   },
   "devDependencies": {
