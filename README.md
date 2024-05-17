@@ -18,7 +18,7 @@ You may want to incorporate some existing helper libraries into your project (e.
 
 ### Optional Bonus
 
-- [ ] Incorporate search
+- [x] Incorporate search
 - [ ] Incorporate pagination (2 per/page or add to the data)
 - [x] Add duplicate records to the data and filter them out prior to render
 - [ ] Add properties to `grid.json` that use can use to style the table (i.e., background color)
