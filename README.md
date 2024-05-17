@@ -19,9 +19,9 @@ You may want to incorporate some existing helper libraries into your project (e.
 ### Optional Bonus
 
 - [ ] Incorporate search
-- Incorporate pagination (2 per/page or add to the data)
-- Add duplicate records to the data and filter them out prior to render
-- Add properties to `grid.json` that use can use to style the table (i.e., background color)
+- [ ] Incorporate pagination (2 per/page or add to the data)
+- [x] Add duplicate records to the data and filter them out prior to render
+- [ ] Add properties to `grid.json` that use can use to style the table (i.e., background color)
 - [x] Simulate a factory that fetches your data instead of just importing the JSON directly
 - [x] Simulate fetching by showing a loading icon
 - [x] If you see logic rendered in the table that's not apparent in the `grid.json`, feel free to alter the json to accommodate

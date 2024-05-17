@@ -11,7 +11,16 @@ const { data, isPending } = useQuery({
       setTimeout(() => {
         return resolve(people);
       }, 3000);
-    }).then((res) => res.response.data),
+    }).then((res) =>
+      //@ts-ignore
+      res.response.data.reduce((acc, current) => {
+        //@ts-ignore
+        if (!acc.find((obj) => obj.id === current.id)) {
+          acc.push(current);
+        }
+        return acc;
+      }, [])
+    ),
 });
 </script>
 
