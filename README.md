@@ -14,17 +14,17 @@ Feel free to fork this repository and get started!
 
 ### Tips
 
-You may want to incorporate some existing helper libraries into your project (e.g., datejs). 
+You may want to incorporate some existing helper libraries into your project (e.g., datejs).
 
 ### Optional Bonus
 
-- Incorporate search
+- [ ] Incorporate search
 - Incorporate pagination (2 per/page or add to the data)
 - Add duplicate records to the data and filter them out prior to render
 - Add properties to `grid.json` that use can use to style the table (i.e., background color)
-- Simulate a factory that fetches your data instead of just importing the JSON directly
-- Simulate fetching by showing a loading icon 
-- If you see logic rendered in the table that's not apparent in the `grid.json`, feel free to alter the json to accommodate
+- [x] Simulate a factory that fetches your data instead of just importing the JSON directly
+- [x] Simulate fetching by showing a loading icon
+- [x] If you see logic rendered in the table that's not apparent in the `grid.json`, feel free to alter the json to accommodate
 - Be creative and feel free to add design elements, and additional functionalities of your choice
 
 ## Finished Project
@@ -32,6 +32,7 @@ You may want to incorporate some existing helper libraries into your project (e.
 Here's what your table should look like when you're done!
 
 ### People
+
 #### Here is a list of imaginary people
 
 <table>
@@ -76,7 +77,3 @@ Here's what your table should look like when you're done!
     </tr>
   </tbody>
 </table>
-
-
-
-
