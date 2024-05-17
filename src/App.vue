@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { useQuery } from "@tanstack/vue-query";
+import Fuse from "fuse.js";
+import { computed, ref } from "vue";
 import grid from "../data/grid.json";
 import people from "../data/people.json";
 import Table from "./components/Table.vue";
-import { computed, ref } from "vue";
-import Fuse from "fuse.js";
 
 const search = ref("");
 const { data, isPending } = useQuery({
@@ -52,6 +52,8 @@ const all_people = computed(() =>
       <input
         type="search"
         v-model="search"
+        autofocus
+        placeholder="Search people"
         class="block max-w-sm w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
       />
       <Table
